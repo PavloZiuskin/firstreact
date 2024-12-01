@@ -1,0 +1,40 @@
+.counter{
+    text-align: center;
+}
+.counter-title{
+    text-align: center;
+}
+.counter-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    gap: 20px;
+}
+.counter-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+
+}
+.counter-button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.button-multiplier{
+    background: green;
+}
+.button-increment{
+    background: cornflowerblue;
+}
+.button-decrement{
+    background: darkslategray;
+}
+.button-reset{
+    background: rosybrown;
+}
