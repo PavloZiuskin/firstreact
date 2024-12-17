@@ -1,10 +1,10 @@
 import React from 'react';
-import Counter from './features/counter/Counter';
+import TodoList from './features/todos/TodoList';
 
 function App() {
     return (
         <div>
-            <Counter />
+            <TodoList />
         </div>
     );
 }
