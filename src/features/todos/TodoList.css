@@ -1,4 +1,4 @@
-/* Загальний контейнер */
+
 .todo-container {
     text-align: center;
     margin: 50px auto;
@@ -9,14 +9,14 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Заголовок */
+
 h1 {
     color: #333;
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* Форма */
+
 .todo-form {
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ h1 {
     background-color: #0056b3;
 }
 
-/* Список завдань */
+
 .todo-list {
     list-style: none;
     padding: 0;
@@ -70,7 +70,7 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Футер */
+
 .todo-footer {
     margin-top: 20px;
     font-size: 1.1rem;
@@ -80,4 +80,31 @@ h1 {
 .todo-footer span {
     font-weight: bold;
     color: #007bff;
+}
+.fetch-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fetch-button:hover {
+    background-color: #218838;
+}
+.todo-item button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-item button:hover {
+    background-color: darkred;
 }
